@@ -1,0 +1,49 @@
+/* Css for body */
+body{
+    padding: 0;
+    margin: 0px;
+    font-size: 16px;
+    background-image: url("./background.jbeg.png");
+    background-repeat: no-repeat;
+}
+/* Css for header */
+.title{
+    text-align: center;
+}
+.title-main{
+    text-align: center;
+    color:blue;
+}
+.nav{
+    margin-top: 5px;
+    width: 95%;
+    height: 20px;
+    align-content: center;
+    background-color: rgb(10, 192, 10);
+}
+.nav-link{
+    color:black;
+}
+.main{
+    margin-top: 10px;
+}
+.col-md-6 .answer{
+    color: blue;
+}
+.col-md-6 .qa2{
+    margin-top: 10px;
+    display: flex;
+}
+.col-md-6 .qa3{
+    margin-top: 10px;
+}
+.col-md-6 .qa3 input{
+    margin-top: 10px;
+}
+.col-md-6 h3{
+    color:blue;
+}
+.col-md-6 img{
+    width: 500px;
+    height: 500px;
+}
