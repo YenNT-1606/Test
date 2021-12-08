@@ -3,8 +3,13 @@ body{
     padding: 0;
     margin: 0px;
     font-size: 16px;
+<<<<<<< HEAD
     background-image: url('images/background.jbeg.png');
     background-repeat: repeat;
+=======
+    background-image: url("./background.jbeg.png");
+    background-repeat: no-repeat;
+>>>>>>> b13fa83079864eba255cb5a6b2af63a6e99aee04
 }
 /* Css for header */
 .title{
@@ -24,9 +29,14 @@ body{
 .nav-link{
     color:black;
 }
+<<<<<<< HEAD
 /* Css for main */
 .main{
     margin-top: 20px;
+=======
+.main{
+    margin-top: 10px;
+>>>>>>> b13fa83079864eba255cb5a6b2af63a6e99aee04
 }
 .col-md-6 .answer{
     color: blue;
@@ -38,6 +48,12 @@ body{
 .col-md-6 .qa3{
     margin-top: 10px;
 }
+<<<<<<< HEAD
+=======
+.col-md-6 .qa3 input{
+    margin-top: 10px;
+}
+>>>>>>> b13fa83079864eba255cb5a6b2af63a6e99aee04
 .col-md-6 h3{
     color:blue;
 }

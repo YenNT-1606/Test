@@ -1,6 +1,10 @@
 console.log("hah");
 
+<<<<<<< HEAD
 const button = document.getElementById("submit")
+=======
+const button = document.getElementById("btnSubmit")
+>>>>>>> b13fa83079864eba255cb5a6b2af63a6e99aee04
 const img = document.getElementById("result-img")
 const result = document.getElementById("result-text");
 
@@ -19,11 +23,19 @@ button.addEventListener("click", function () {
 		result.textContent = "Your are an Alien";
 	} else {
 		if (a1 == 1 & a2 == 2 & a3 == 1) {
+<<<<<<< HEAD
 			img.src = "img2.jbeg";
 
 			result.textContent = "Your are a bizarre";
 		} else {
 			img.src = "img3.jbeg";
+=======
+			img.src = "img1.jbeg.webp";
+
+			result.textContent = "Your are a bizarre";
+		} else {
+			img.src = "img1.jbeg.webp";
+>>>>>>> b13fa83079864eba255cb5a6b2af63a6e99aee04
 
 			result.textContent = "Your are just a normal person";
 		}
